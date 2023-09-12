@@ -1,0 +1,2166 @@
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~
+$ git --version
+git version 2.42.0.windows.1
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~
+$ git config --global user.name
+DIHABI MAROUA
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~
+$ git config --global user.email
+e22010833@etudiant.univ-brest.fr
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~
+$ config user.email "dihabi.maroua1@gmail.com"
+bash: config: command not found
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~
+$ git config --global user.email "dihabi.maroua1@gmail.com"
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~
+$ git config --global user.email
+dihabi.maroua1@gmail.com
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~
+$ ls
+ -1.14-windows.xml
+ 1.php
+'3D Objects'/
+ Accueil.php
+ AppData/
+'Application Data'@
+ Compte.php
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Dropbox/
+ Favorites/
+ IntelGraphicsProfiles/
+ JAVA/
+ Links/
+'Local Settings'@
+ Match.php
+'Menu Démarrer'@
+'Mes documents'@
+ MicrosoftEdgeBackups/
+ Modèles@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{94ca4b34-f006-11ed-81f7-d49ea30c991a}.TM.blf
+ NTUSER.DAT{94ca4b34-f006-11ed-81f7-d49ea30c991a}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{94ca4b34-f006-11ed-81f7-d49ea30c991a}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+'PROJET_DIHABI_MAROUA_LEMRANI_RADIA (1).py'*
+ PROJET_DIHABI_MAROUA_LEMRANI_RADIA.ipynb
+ Postman/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Untitled.ipynb
+ Untitled1.ipynb
+ Untitled2.ipynb
+ Untitled3.ipynb
+ Untitled4.ipynb
+ Untitled5.ipynb
+ Untitled6.ipynb
+ Untitled7.ipynb
+ Untitled8.ipynb
+ Untitled9.ipynb
+ Videos/
+'VirtualBox VMs'/
+"Voisinage d'impression"@
+'Voisinage réseau'@
+ Zotero/
+ alien.gif
+ anaconda3/
+ animate.css
+ bas.php
+ database.php
+ eclipse/
+ eclipse-workspace/
+ explosion.gif
+ fichier/
+ haut.php
+ img_13.jpg
+ index.html
+ index.php
+ inscription.php
+ livredor.php
+ livredor1.php
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ p2.ipynb
+ page_accueil.php
+ person.jpg
+ portfolio-1.jpg
+ routes.php
+ smag_asso_organizer/
+ sonya.jpg
+ source/
+ study/
+ test/
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~
+$ mkdir B3-Git
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~
+$ ls
+ -1.14-windows.xml
+ 1.php
+'3D Objects'/
+ Accueil.php
+ AppData/
+'Application Data'@
+ B3-Git/
+ Compte.php
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Dropbox/
+ Favorites/
+ IntelGraphicsProfiles/
+ JAVA/
+ Links/
+'Local Settings'@
+ Match.php
+'Menu Démarrer'@
+'Mes documents'@
+ MicrosoftEdgeBackups/
+ Modèles@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{94ca4b34-f006-11ed-81f7-d49ea30c991a}.TM.blf
+ NTUSER.DAT{94ca4b34-f006-11ed-81f7-d49ea30c991a}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{94ca4b34-f006-11ed-81f7-d49ea30c991a}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+'PROJET_DIHABI_MAROUA_LEMRANI_RADIA (1).py'*
+ PROJET_DIHABI_MAROUA_LEMRANI_RADIA.ipynb
+ Postman/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Untitled.ipynb
+ Untitled1.ipynb
+ Untitled2.ipynb
+ Untitled3.ipynb
+ Untitled4.ipynb
+ Untitled5.ipynb
+ Untitled6.ipynb
+ Untitled7.ipynb
+ Untitled8.ipynb
+ Untitled9.ipynb
+ Videos/
+'VirtualBox VMs'/
+"Voisinage d'impression"@
+'Voisinage réseau'@
+ Zotero/
+ alien.gif
+ anaconda3/
+ animate.css
+ bas.php
+ database.php
+ eclipse/
+ eclipse-workspace/
+ explosion.gif
+ fichier/
+ haut.php
+ img_13.jpg
+ index.html
+ index.php
+ inscription.php
+ livredor.php
+ livredor1.php
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ p2.ipynb
+ page_accueil.php
+ person.jpg
+ portfolio-1.jpg
+ routes.php
+ smag_asso_organizer/
+ sonya.jpg
+ source/
+ study/
+ test/
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~
+$ cd B3-Git
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git
+$ mkdir gitproject
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git
+$ cd gitproject
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject
+$ git init
+Initialized empty Git repository in C:/Users/MAROUA/B3-Git/gitproject/.git/
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ls
+index.html
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git config --global core.editor "index.html"
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git config --global -e
+hint: Waiting for your editor to close the file... error: cannot spawn index.html: No such file or directory
+error: unable to start editor 'index.html'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git config --global core.editor index.html
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git config --global -e
+hint: Waiting for your editor to close the file... error: cannot spawn index.html: No such file or directory
+error: unable to start editor 'index.html'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ls
+index.html
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git add "index.html"
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ls
+README.md  index.html  lightgreen.css
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ^C
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git add --all
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'lightgreen.css', LF will be replaced by CRLF the next time Git touches it
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   index.html
+        new file:   lightgreen.css
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git commit -m "First release of Hello World!"
+[master (root-commit) 97cbd14] First release of Hello World!
+ 3 files changed, 29 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 index.html
+ create mode 100644 lightgreen.css
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ls
+README.md  index.html  lightgreen.css
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ cat index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="lightgreen.css">
+</head>
+
+<body>
+
+    <h1>Hello world!</h1>
+    <p>Voici votre premier fichier dans votre repo GIT.</p>
+
+</body>
+
+</html>
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git log
+commit 97cbd1451bfc4f51b55e51b5b2ceb4b61a8e1e58 (HEAD -> master)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 10:17:29 2023 +0200
+
+    First release of Hello World!
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status --short
+ M index.html
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git commit -a -m "Message"
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+[master f567b10] Message
+ 1 file changed, 2 insertions(+)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git commit -a -m "Updated index.html with a new line"
+On branch master
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git log
+commit f567b10947cf82283b326dea2d881ae42e3d62c2 (HEAD -> master)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 11:04:42 2023 +0200
+
+    Message
+
+commit 97cbd1451bfc4f51b55e51b5b2ceb4b61a8e1e58
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 10:17:29 2023 +0200
+
+    First release of Hello World!
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git commit -a -m "Updated index.html with a new line"
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+[master 6ba761c] Updated index.html with a new line
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git log
+commit 6ba761c7768180d3d95850895d797d07dc4af160 (HEAD -> master)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 11:08:58 2023 +0200
+
+    Updated index.html with a new line
+
+commit f567b10947cf82283b326dea2d881ae42e3d62c2
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 11:04:42 2023 +0200
+
+    Message
+
+commit 97cbd1451bfc4f51b55e51b5b2ceb4b61a8e1e58
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 10:17:29 2023 +0200
+
+    First release of Hello World!
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status --short
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ cat index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="lightgreen.css">
+</head>
+
+<body>
+
+    <h1>Hello world!</h1>
+    <p>Voici votre premier fichier dans votre repo GIT.</p>
+
+    <p>Première modification</p>
+
+</body>
+
+</html>
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git log --graph
+* commit 6ba761c7768180d3d95850895d797d07dc4af160 (HEAD -> master)
+| Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+| Date:   Mon Sep 11 11:08:58 2023 +0200
+|
+|     Updated index.html with a new line
+|
+* commit f567b10947cf82283b326dea2d881ae42e3d62c2
+| Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+| Date:   Mon Sep 11 11:04:42 2023 +0200
+|
+|     Message
+|
+* commit 97cbd1451bfc4f51b55e51b5b2ceb4b61a8e1e58
+  Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+  Date:   Mon Sep 11 10:17:29 2023 +0200
+
+      First release of Hello World!
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ Git help
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git help --all
+See 'git help <command>' to read about a specific subcommand
+
+Main Porcelain Commands
+   add                     Add file contents to the index
+   am                      Apply a series of patches from a mailbox
+   archive                 Create an archive of files from a named tree
+   bisect                  Use binary search to find the commit that introduced a bug
+   branch                  List, create, or delete branches
+   bundle                  Move objects and refs by archive
+   checkout                Switch branches or restore working tree files
+   cherry-pick             Apply the changes introduced by some existing commits
+   citool                  Graphical alternative to git-commit
+   clean                   Remove untracked files from the working tree
+   clone                   Clone a repository into a new directory
+   commit                  Record changes to the repository
+   describe                Give an object a human readable name based on an available ref
+   diff                    Show changes between commits, commit and working tree, etc
+   fetch                   Download objects and refs from another repository
+   format-patch            Prepare patches for e-mail submission
+   gc                      Cleanup unnecessary files and optimize the local repository
+   gitk                    The Git repository browser
+   grep                    Print lines matching a pattern
+   gui                     A portable graphical interface to Git
+   init                    Create an empty Git repository or reinitialize an existing one
+   log                     Show commit logs
+   maintenance             Run tasks to optimize Git repository data
+   merge                   Join two or more development histories together
+   mv                      Move or rename a file, a directory, or a symlink
+   notes                   Add or inspect object notes
+   pull                    Fetch from and integrate with another repository or a local branch
+   push                    Update remote refs along with associated objects
+   range-diff              Compare two commit ranges (e.g. two versions of a branch)
+   rebase                  Reapply commits on top of another base tip
+   reset                   Reset current HEAD to the specified state
+   restore                 Restore working tree files
+   revert                  Revert some existing commits
+   rm                      Remove files from the working tree and from the index
+   scalar                  A tool for managing large Git repositories
+   shortlog                Summarize 'git log' output
+   show                    Show various types of objects
+   sparse-checkout         Reduce your working tree to a subset of tracked files
+   stash                   Stash the changes in a dirty working directory away
+   status                  Show the working tree status
+   submodule               Initialize, update or inspect submodules
+   switch                  Switch branches
+   tag                     Create, list, delete or verify a tag object signed with GPG
+   worktree                Manage multiple working trees
+
+Ancillary Commands / Manipulators
+   config                  Get and set repository or global options
+   fast-export             Git data exporter
+   fast-import             Backend for fast Git data importers
+   filter-branch           Rewrite branches
+   mergetool               Run merge conflict resolution tools to resolve merge conflicts
+   pack-refs               Pack heads and tags for efficient repository access
+   prune                   Prune all unreachable objects from the object database
+   reflog                  Manage reflog information
+   remote                  Manage set of tracked repositories
+   repack                  Pack unpacked objects in a repository
+   replace                 Create, list, delete refs to replace objects
+
+Ancillary Commands / Interrogators
+   annotate                Annotate file lines with commit information
+   blame                   Show what revision and author last modified each line of a file
+   bugreport               Collect information for user to file a bug report
+   count-objects           Count unpacked number of objects and their disk consumption
+:
+   fast-export             Git data exporter
+   fast-import             Backend for fast Git data importers
+   filter-branch           Rewrite branches
+   mergetool               Run merge conflict resolution tools to resolve merge conflicts
+   pack-refs               Pack heads and tags for efficient repository access
+   prune                   Prune all unreachable objects from the object database
+   reflog                  Manage reflog information
+   remote                  Manage set of tracked repositories
+   repack                  Pack unpacked objects in a repository
+   replace                 Create, list, delete refs to replace objects
+
+Ancillary Commands / Interrogators
+   annotate                Annotate file lines with commit information
+   blame                   Show what revision and author last modified each line of a file
+   bugreport               Collect information for user to file a bug report
+   count-objects           Count unpacked number of objects and their disk consumption
+:
+   gitweb                  Git web interface (web frontend to Git repositories)
+   help                    Display help information about Git
+   instaweb                Instantly browse your working repository in gitweb
+   merge-tree              Perform merge without touching index or working tree
+   rerere                  Reuse recorded resolution of conflicted merges
+   show-branch             Show branches and their commits
+   verify-commit           Check the GPG signature of commits
+   verify-tag              Check the GPG signature of tags
+   version                 Display version information about Git
+   whatchanged             Show logs with difference each commit introduces
+
+Interacting with Others
+   archimport              Import a GNU Arch repository into Git
+   cvsexportcommit         Export a single commit to a CVS checkout
+   cvsimport               Salvage your data out of another SCM people love to hate
+   cvsserver               A CVS server emulator for Git
+:
+   gitweb                  Git web interface (web frontend to Git repositories)
+   help                    Display help information about Git
+   instaweb                Instantly browse your working repository in gitweb
+   merge-tree              Perform merge without touching index or working tree
+   rerere                  Reuse recorded resolution of conflicted merges
+   show-branch             Show branches and their commits
+   verify-commit           Check the GPG signature of commits
+   verify-tag              Check the GPG signature of tags
+   version                 Display version information about Git
+   whatchanged             Show logs with difference each commit introduces
+
+Interacting with Others
+   archimport              Import a GNU Arch repository into Git
+   cvsexportcommit         Export a single commit to a CVS checkout
+   cvsimport               Salvage your data out of another SCM people love to hate
+   cvsserver               A CVS server emulator for Git
+   imap-send               Send a collection of patches from stdin to an IMAP folder
+   p4                      Import from and submit to Perforce repositories
+   quiltimport             Applies a quilt patchset onto the current branch
+   request-pull            Generates a summary of pending changes
+   send-email              Send a collection of patches as emails
+   svn                     Bidirectional operation between a Subversion repository and Git
+
+Low-level Commands / Manipulators
+   apply                   Apply a patch to files and/or to the index
+   checkout-index          Copy files from the index to the working tree
+   commit-graph            Write and verify Git commit-graph files
+   commit-tree             Create a new commit object
+   hash-object             Compute object ID and optionally create an object from a file
+   index-pack              Build pack index file for an existing packed archive
+   merge-file              Run a three-way file merge
+   merge-index             Run a merge for files needing merging
+   mktag                   Creates a tag object with extra validation
+   mktree                  Build a tree-object from ls-tree formatted text
+   multi-pack-index        Write and verify multi-pack-indexes
+   pack-objects            Create a packed archive of objects
+   prune-packed            Remove extra objects that are already in pack files
+   read-tree               Reads tree information into the index
+   symbolic-ref            Read, modify and delete symbolic refs
+   unpack-objects          Unpack objects from a packed archive
+   update-index            Register file contents in the working tree to the index
+   update-ref              Update the object name stored in a ref safely
+   write-tree              Create a tree object from the current index
+
+Low-level Commands / Interrogators
+   cat-file                Provide content or type and size information for repository obj
+   cherry                  Find commits yet to be applied to upstream
+   diff-files              Compares files in the working tree and the index
+   diff-index              Compare a tree to the working tree or index
+   diff-tree               Compares the content and mode of blobs found via two tree objec
+   for-each-ref            Output information on each ref
+:
+   gitweb                  Git web interface (web frontend to Git repositories)
+   help                    Display help information about Git
+   instaweb                Instantly browse your working repository in gitweb
+   merge-tree              Perform merge without touching index or working tree
+   rerere                  Reuse recorded resolution of conflicted merges
+   show-branch             Show branches and their commits
+   verify-commit           Check the GPG signature of commits
+   verify-tag              Check the GPG signature of tags
+   version                 Display version information about Git
+   whatchanged             Show logs with difference each commit introduces
+
+Interacting with Others
+   archimport              Import a GNU Arch repository into Git
+   cvsexportcommit         Export a single commit to a CVS checkout
+   cvsimport               Salvage your data out of another SCM people love to hate
+   cvsserver               A CVS server emulator for Git
+   imap-send               Send a collection of patches from stdin to an IMAP folder
+   p4                      Import from and submit to Perforce repositories
+   quiltimport             Applies a quilt patchset onto the current branch
+   request-pull            Generates a summary of pending changes
+   send-email              Send a collection of patches as emails
+   svn                     Bidirectional operation between a Subversion repository and Git
+
+Low-level Commands / Manipulators
+   apply                   Apply a patch to files and/or to the index
+   checkout-index          Copy files from the index to the working tree
+   commit-graph            Write and verify Git commit-graph files
+   commit-tree             Create a new commit object
+   hash-object             Compute object ID and optionally create an object from a file
+   index-pack              Build pack index file for an existing packed archive
+   merge-file              Run a three-way file merge
+   merge-index             Run a merge for files needing merging
+   mktag                   Creates a tag object with extra validation
+   mktree                  Build a tree-object from ls-tree formatted text
+   multi-pack-index        Write and verify multi-pack-indexes
+   pack-objects            Create a packed archive of objects
+   prune-packed            Remove extra objects that are already in pack files
+   read-tree               Reads tree information into the index
+   symbolic-ref            Read, modify and delete symbolic refs
+   unpack-objects          Unpack objects from a packed archive
+   update-index            Register file contents in the working tree to the index
+   update-ref              Update the object name stored in a ref safely
+   write-tree              Create a tree object from the current index
+
+Low-level Commands / Interrogators
+   cat-file                Provide content or type and size information for repository obj
+   cherry                  Find commits yet to be applied to upstream
+   diff-files              Compares files in the working tree and the index
+   diff-index              Compare a tree to the working tree or index
+   diff-tree               Compares the content and mode of blobs found via two tree objec
+   for-each-ref            Output information on each ref
+:
+   gitweb                  Git web interface (web frontend to Git repositories)
+   help                    Display help information about Git
+   instaweb                Instantly browse your working repository in gitweb
+   merge-tree              Perform merge without touching index or working tree
+   rerere                  Reuse recorded resolution of conflicted merges
+   show-branch             Show branches and their commits
+   verify-commit           Check the GPG signature of commits
+   verify-tag              Check the GPG signature of tags
+   version                 Display version information about Git
+   whatchanged             Show logs with difference each commit introduces
+
+Interacting with Others
+   archimport              Import a GNU Arch repository into Git
+   cvsexportcommit         Export a single commit to a CVS checkout
+   cvsimport               Salvage your data out of another SCM people love to hate
+   cvsserver               A CVS server emulator for Git
+   imap-send               Send a collection of patches from stdin to an IMAP folder
+   p4                      Import from and submit to Perforce repositories
+   quiltimport             Applies a quilt patchset onto the current branch
+   request-pull            Generates a summary of pending changes
+   send-email              Send a collection of patches as emails
+   svn                     Bidirectional operation between a Subversion repository and Git
+
+Low-level Commands / Manipulators
+   apply                   Apply a patch to files and/or to the index
+   checkout-index          Copy files from the index to the working tree
+   commit-graph            Write and verify Git commit-graph files
+   commit-tree             Create a new commit object
+   hash-object             Compute object ID and optionally create an object from a file
+   index-pack              Build pack index file for an existing packed archive
+   merge-file              Run a three-way file merge
+   merge-index             Run a merge for files needing merging
+   mktag                   Creates a tag object with extra validation
+   mktree                  Build a tree-object from ls-tree formatted text
+   multi-pack-index        Write and verify multi-pack-indexes
+   pack-objects            Create a packed archive of objects
+   prune-packed            Remove extra objects that are already in pack files
+   read-tree               Reads tree information into the index
+   symbolic-ref            Read, modify and delete symbolic refs
+   unpack-objects          Unpack objects from a packed archive
+   update-index            Register file contents in the working tree to the index
+   update-ref              Update the object name stored in a ref safely
+   write-tree              Create a tree object from the current index
+
+Low-level Commands / Interrogators
+   cat-file                Provide content or type and size information for repository obj
+   cherry                  Find commits yet to be applied to upstream
+   diff-files              Compares files in the working tree and the index
+   diff-index              Compare a tree to the working tree or index
+   diff-tree               Compares the content and mode of blobs found via two tree objec
+   for-each-ref            Output information on each ref
+:
+   gitweb                  Git web interface (web frontend to Git repositories)
+   help                    Display help information about Git
+   instaweb                Instantly browse your working repository in gitweb
+   merge-tree              Perform merge without touching index or working tree
+   rerere                  Reuse recorded resolution of conflicted merges
+   show-branch             Show branches and their commits
+   verify-commit           Check the GPG signature of commits
+   verify-tag              Check the GPG signature of tags
+   version                 Display version information about Git
+   whatchanged             Show logs with difference each commit introduces
+
+Interacting with Others
+   archimport              Import a GNU Arch repository into Git
+   cvsexportcommit         Export a single commit to a CVS checkout
+   cvsimport               Salvage your data out of another SCM people love to hate
+   cvsserver               A CVS server emulator for Git
+   imap-send               Send a collection of patches from stdin to an IMAP folder
+   p4                      Import from and submit to Perforce repositories
+   quiltimport             Applies a quilt patchset onto the current branch
+   request-pull            Generates a summary of pending changes
+   send-email              Send a collection of patches as emails
+   svn                     Bidirectional operation between a Subversion repository and Git
+
+Low-level Commands / Manipulators
+   apply                   Apply a patch to files and/or to the index
+   checkout-index          Copy files from the index to the working tree
+   commit-graph            Write and verify Git commit-graph files
+   commit-tree             Create a new commit object
+   hash-object             Compute object ID and optionally create an object from a file
+   index-pack              Build pack index file for an existing packed archive
+   merge-file              Run a three-way file merge
+   merge-index             Run a merge for files needing merging
+   mktag                   Creates a tag object with extra validation
+   mktree                  Build a tree-object from ls-tree formatted text
+   multi-pack-index        Write and verify multi-pack-indexes
+   pack-objects            Create a packed archive of objects
+   prune-packed            Remove extra objects that are already in pack files
+   read-tree               Reads tree information into the index
+   symbolic-ref            Read, modify and delete symbolic refs
+   unpack-objects          Unpack objects from a packed archive
+   update-index            Register file contents in the working tree to the index
+   update-ref              Update the object name stored in a ref safely
+   write-tree              Create a tree object from the current index
+
+Low-level Commands / Interrogators
+   cat-file                Provide content or type and size information for repository obj
+   cherry                  Find commits yet to be applied to upstream
+   diff-files              Compares files in the working tree and the index
+   diff-index              Compare a tree to the working tree or index
+   diff-tree               Compares the content and mode of blobs found via two tree objec
+   for-each-ref            Output information on each ref
+:
+   gitweb                  Git web interface (web frontend to Git repositories)
+   help                    Display help information about Git
+   instaweb                Instantly browse your working repository in gitweb
+   merge-tree              Perform merge without touching index or working tree
+   rerere                  Reuse recorded resolution of conflicted merges
+   show-branch             Show branches and their commits
+   verify-commit           Check the GPG signature of commits
+   verify-tag              Check the GPG signature of tags
+   version                 Display version information about Git
+   whatchanged             Show logs with difference each commit introduces
+
+Interacting with Others
+   archimport              Import a GNU Arch repository into Git
+   cvsexportcommit         Export a single commit to a CVS checkout
+   cvsimport               Salvage your data out of another SCM people love to hate
+   cvsserver               A CVS server emulator for Git
+   imap-send               Send a collection of patches from stdin to an IMAP folder
+   p4                      Import from and submit to Perforce repositories
+   quiltimport             Applies a quilt patchset onto the current branch
+   request-pull            Generates a summary of pending changes
+   send-email              Send a collection of patches as emails
+   svn                     Bidirectional operation between a Subversion repository and Git
+
+Low-level Commands / Manipulators
+   apply                   Apply a patch to files and/or to the index
+   checkout-index          Copy files from the index to the working tree
+   commit-graph            Write and verify Git commit-graph files
+   commit-tree             Create a new commit object
+   hash-object             Compute object ID and optionally create an object from a file
+   index-pack              Build pack index file for an existing packed archive
+   merge-file              Run a three-way file merge
+   merge-index             Run a merge for files needing merging
+   mktag                   Creates a tag object with extra validation
+   mktree                  Build a tree-object from ls-tree formatted text
+   multi-pack-index        Write and verify multi-pack-indexes
+   pack-objects            Create a packed archive of objects
+   prune-packed            Remove extra objects that are already in pack files
+   read-tree               Reads tree information into the index
+   symbolic-ref            Read, modify and delete symbolic refs
+   unpack-objects          Unpack objects from a packed archive
+   update-index            Register file contents in the working tree to the index
+   update-ref              Update the object name stored in a ref safely
+   write-tree              Create a tree object from the current index
+
+Low-level Commands / Interrogators
+   cat-file                Provide content or type and size information for repository obj
+   cherry                  Find commits yet to be applied to upstream
+   diff-files              Compares files in the working tree and the index
+   diff-index              Compare a tree to the working tree or index
+   diff-tree               Compares the content and mode of blobs found via two tree objec
+   for-each-ref            Output information on each ref
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch  develop
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch
+  develop
+* master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git checkout develop
+Switched to branch 'develop'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (develop)
+$ git checkout -b hello-world-images
+Switched to a new branch 'hello-world-images'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git status
+On branch hello-world-images
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        img_HW.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git add -all
+error: did you mean `--all` (with two dashes)?
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git add --all
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git status
+On branch hello-world-images
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   img_HW.png
+        modified:   index.html
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git commit -m "Ajouter une image à index.html"
+[hello-world-images d033408] Ajouter une image à index.html
+ 2 files changed, 2 insertions(+)
+ create mode 100644 img_HW.png
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git log
+commit d033408663b442debca9299253a66fa2afba9b9c (HEAD -> hello-world-images)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 11:39:29 2023 +0200
+
+    Ajouter une image à index.html
+
+commit 6ba761c7768180d3d95850895d797d07dc4af160 (master, develop)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 11:08:58 2023 +0200
+
+    Updated index.html with a new line
+
+commit f567b10947cf82283b326dea2d881ae42e3d62c2
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 11:04:42 2023 +0200
+
+    Message
+
+commit 97cbd1451bfc4f51b55e51b5b2ceb4b61a8e1e58
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 10:17:29 2023 +0200
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ ls
+README.md  img_HW.png  index.html  lightgreen.css
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ checkout branche develop
+bash: checkout: command not found
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git chekout develop
+git: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ ls
+README.md  img_HW.png  index.html  lightgreen.css
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git checkout develop
+Switched to branch 'develop'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (develop)
+$ ls
+README.md  index.html  lightgreen.css
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (develop)
+$ git checkout hello-world-images
+Switched to branch 'hello-world-images'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ ls
+README.md  img_HW.png  index.html  lightgreen.css
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git checkout master
+Switched to branch 'master'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git checkout -b hotfix_branch
+Switched to a new branch 'hotfix_branch'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hotfix_branch)
+$ git status
+On branch hotfix_branch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hotfix_branch)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hotfix_branch)
+$ git add index.html
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hotfix_branch)
+$ git status
+On branch hotfix_branch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hotfix_branch)
+$ git commit -m "fix(index.html) : fix bug"
+[hotfix_branch 49396d8] fix(index.html) : fix bug
+ 1 file changed, 1 insertion(+)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hotfix_branch)
+$ git log
+commit 49396d8d89315c18677d5e9dc80a164e3afe0134 (HEAD -> hotfix_branch)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 11:54:06 2023 +0200
+
+    fix(index.html) : fix bug
+
+commit 6ba761c7768180d3d95850895d797d07dc4af160 (master, develop)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 11:08:58 2023 +0200
+
+    Updated index.html with a new line
+
+commit f567b10947cf82283b326dea2d881ae42e3d62c2
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 11:04:42 2023 +0200
+
+    Message
+
+commit 97cbd1451bfc4f51b55e51b5b2ceb4b61a8e1e58
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 10:17:29 2023 +0200
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hotfix_branch)
+$ git branch
+  develop
+  hello-world-images
+* hotfix_branch
+  master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hotfix_branch)
+$ git checkout master
+Switched to branch 'master'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git merge hotfix_branch
+Updating 6ba761c..49396d8
+Fast-forward
+ index.html | 1 +
+ 1 file changed, 1 insertion(+)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch
+  develop
+  hello-world-images
+  hotfix_branch
+* master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch -d hotfix_branch
+Deleted branch hotfix_branch (was 49396d8).
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch
+  develop
+  hello-world-images
+* master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ls
+README.md  index.html  lightgreen.css
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ Git Rebase
+git: 'Rebase' is not a git command. See 'git --help'.
+
+The most similar command is
+        rebase
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git rebase
+There is no tracking information for the current branch.
+Please specify which branch you want to rebase against.
+See git-rebase(1) for details.
+
+    git rebase '<branch>'
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git rebase master
+Current branch master is up to date.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git log
+commit 49396d8d89315c18677d5e9dc80a164e3afe0134 (HEAD -> master)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 11:54:06 2023 +0200
+
+    fix(index.html) : fix bug
+
+commit 6ba761c7768180d3d95850895d797d07dc4af160 (develop)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 11:08:58 2023 +0200
+
+    Updated index.html with a new line
+
+commit f567b10947cf82283b326dea2d881ae42e3d62c2
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 11:04:42 2023 +0200
+
+    Message
+
+commit 97cbd1451bfc4f51b55e51b5b2ceb4b61a8e1e58
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 10:17:29 2023 +0200
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch
+  develop
+  hello-world-images
+* master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git checkout hello-world-images
+error: Your local changes to the following files would be overwritten by checkout:
+        index.html
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git add index.html
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git checkout hello-world-images
+error: Your local changes to the following files would be overwritten by checkout:
+        index.html
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        img_git.png
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        img_git.png
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git add index.html
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        img_git.png
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git add -all
+error: did you mean `--all` (with two dashes)?
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git add --all
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   img_git.png
+        modified:   index.html
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ls
+README.md  img_git.png  index.html  lightgreen.css
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git checkout hello-world-images
+error: Your local changes to the following files would be overwritten by checkout:
+        index.html
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   img_git.png
+        modified:   index.html
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status --short
+A  img_git.png
+M  index.html
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   img_git.png
+        modified:   index.html
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git checkout hello-world-images
+error: Your local changes to the following files would be overwritten by checkout:
+        index.html
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ^C
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git commit -m "Description de vos modifications"~
+[master f335ae7] Description de vos modifications~
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 img_git.png
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git checkout hello-world-images
+Switched to branch 'hello-world-images'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git status
+On branch hello-world-images
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git add index.html
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git commit -m "Supprimer une image"
+[hello-world-images 80d9669] Supprimer une image
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git status
+On branch hello-world-images
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git status
+On branch hello-world-images
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   lightgreen.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git add --all
+warning: in the working copy of 'lightgreen.css', LF will be replaced by CRLF the next time Git touches it
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git status
+On branch hello-world-images
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   lightgreen.css
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git commit -m "Ajouter du style "
+[hello-world-images 26c3116] Ajouter du style
+ 1 file changed, 21 insertions(+), 3 deletions(-)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git status
+On branch hello-world-images
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git status
+On branch hello-world-images
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    img_HW.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git add --all
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git status
+On branch hello-world-images
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    img_HW.png
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git commit -m "Supprimer une image "
+[hello-world-images bc28660] Supprimer une image
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 img_HW.png
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git add --all
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git commit -m "Ajouter une image "
+[hello-world-images 5956481] Ajouter une image
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 img_git.png
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git status
+On branch hello-world-images
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git status
+On branch hello-world-images
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+        modified:   lightgreen.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git add --all
+warning: in the working copy of 'lightgreen.css', LF will be replaced by CRLF the next time Git touches it
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git status
+On branch hello-world-images
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+        modified:   lightgreen.css
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git commit -m "Modifier index.html (ajouter une image git) et lightgreen.css"
+[hello-world-images 2bd73bc] Modifier index.html (ajouter une image git) et lightgreen.css
+ 2 files changed, 6 insertions(+)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git log
+commit 2bd73bc681483da82efadcf16161ab68fdbfa744 (HEAD -> hello-world-images)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 13:34:08 2023 +0200
+
+    Modifier index.html (ajouter une image git) et lightgreen.css
+
+commit 595648143a05d24d626d76d7f118051cb6bf65e6
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 13:29:35 2023 +0200
+
+    Ajouter une image
+
+commit bc286609668cb2604f54027479ae9036f55b31ff
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 13:28:16 2023 +0200
+
+    Supprimer une image
+
+commit 26c3116d5ec4aad80bc44f45b0561fb1b1205995
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 13:25:06 2023 +0200
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ get checkout develop
+bash: get: command not found
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (hello-world-images)
+$ git checkout develop
+Switched to branch 'develop'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (develop)
+$ git merge hello-world-images
+Updating 6ba761c..2bd73bc
+Fast-forward
+ img_git.png    | Bin 0 -> 5990 bytes
+ index.html     |   4 ++++
+ lightgreen.css |  28 +++++++++++++++++++++++++---
+ 3 files changed, 29 insertions(+), 3 deletions(-)
+ create mode 100644 img_git.png
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (develop)
+$ git branch
+* develop
+  hello-world-images
+  master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (develop)
+$ git checkout -b release/0.1.0^C
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (develop)
+$ git branch
+* develop
+  hello-world-images
+  master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (develop)
+$ git checkout -b release/0.1.0
+Switched to a new branch 'release/0.1.0'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (release/0.1.0)
+$ git checkout develop
+Switched to branch 'develop'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (develop)
+$ git merge release/0.1.0
+Already up to date.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (develop)
+$ git checkout master
+Switched to branch 'master'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git merge release/0.1.0
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master|MERGING)
+$ git merge release/0.1.0
+fatal: You have not concluded your merge (MERGE_HEAD exists).
+Please, commit your changes before you merge.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master|MERGING)
+$ git merge release/0.1.0
+Already up to date.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git add --all
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git commit -m "Modifier index.html"
+[master dfbeaed] Modifier index.html
+ 1 file changed, 9 insertions(+)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ^C
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch
+  develop
+  hello-world-images
+* master
+  release/0.1.0
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch -d release/0.1.0
+Deleted branch release/0.1.0 (was 2bd73bc).
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch -d hello-world-images
+Deleted branch hello-world-images (was 2bd73bc).
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch
+  develop
+* master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git tag -a v0.1.0 -m "version 0.1.0"
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git tag
+v0.1.0
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git show v0.1.0
+tag v0.1.0
+Tagger: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 14:08:16 2023 +0200
+
+version 0.1.0
+
+commit dfbeaed66e8b40d177f9cc82caa7b1efc358f0e3 (HEAD -> master, tag: v0.1.0)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 14:01:09 2023 +0200
+
+    Modifier index.html
+
+diff --git a/index.html b/index.html
+index bb2e0e7..422c230 100644
+--- a/index.html
++++ b/index.html
+@@ -11,6 +11,15 @@
+     <h1>Hello world!</h1>
+     <p>Voici votre premier fichier dans votre repo GIT.</p>
+     <p>Première modification</p>
++
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ^C
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git remote add origin "URL"
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push --set-upstream origin master
+fatal: 'URL' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git remote add origin "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"
+error: remote origin already exists.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ls
+README.md  img_git.png  index.html  lightgreen.css
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ^C
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git remote remove origin
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git remote add origin "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"
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push --set-upstream origin master
+fatal: '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' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git remote remove origin
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git remote add origin "https://github.com/DihabiMaroua/hello-world.git"
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push --set-upstream origin master
+info: please complete authentication in your browser...
+Enumerating objects: 42, done.
+Counting objects: 100% (42/42), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (42/42), done.
+Writing objects: 100% (42/42), 21.25 KiB | 4.25 MiB/s, done.
+Total 42 (delta 17), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (17/17), done.
+To https://github.com/DihabiMaroua/hello-world.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push --set-upstream origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ^C
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push --set-upstream origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git fetch origin
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (9/9), 2.43 KiB | 103.00 KiB/s, done.
+From https://github.com/DihabiMaroua/hello-world
+   dfbeaed..1b6b6f5  master     -> origin/master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is behind 'origin/master' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git log
+commit dfbeaed66e8b40d177f9cc82caa7b1efc358f0e3 (HEAD -> master, tag: v0.1.0)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 14:01:09 2023 +0200
+
+    Modifier index.html
+
+commit 0d91f9f46aa92aa68749b60d05e3bec545297ce4
+Merge: f335ae7 2bd73bc
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 13:57:00 2023 +0200
+
+    Merge branch 'release/0.1.0'
+
+commit 2bd73bc681483da82efadcf16161ab68fdbfa744 (develop)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 13:34:08 2023 +0200
+
+    Modifier index.html (ajouter une image git) et lightgreen.css
+
+commit 595648143a05d24d626d76d7f118051cb6bf65e6
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 13:29:35 2023 +0200
+
+    Ajouter une image
+
+commit bc286609668cb2604f54027479ae9036f55b31ff
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 13:28:16 2023 +0200
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git log otigin/master
+fatal: ambiguous argument 'otigin/master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git log origin/master
+commit 1b6b6f5697d1188292b9cb592c168235c68bab79 (origin/master)
+Author: DihabiMaroua <143880988+DihabiMaroua@users.noreply.github.com>
+Date:   Mon Sep 11 15:05:52 2023 +0200
+
+    Update README.md
+
+commit 897386c1b6c3d3b2f50068ca4333766b9c00bcd1
+Author: DihabiMaroua <143880988+DihabiMaroua@users.noreply.github.com>
+Date:   Mon Sep 11 14:50:12 2023 +0200
+
+    Update README.md
+
+commit 3c74e299562c22b4404810dfa4149c6550abd497
+Author: DihabiMaroua <143880988+DihabiMaroua@users.noreply.github.com>
+Date:   Mon Sep 11 14:44:20 2023 +0200
+
+    Update README.md
+
+commit dfbeaed66e8b40d177f9cc82caa7b1efc358f0e3 (HEAD -> master, tag: v0.1.0)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 14:01:09 2023 +0200
+
+    Modifier index.html
+
+commit 0d91f9f46aa92aa68749b60d05e3bec545297ce4
+Merge: f335ae7 2bd73bc
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 13:57:00 2023 +0200
+
+    Merge branch 'release/0.1.0'
+
+commit 2bd73bc681483da82efadcf16161ab68fdbfa744 (develop)
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 13:34:08 2023 +0200
+
+    Modifier index.html (ajouter une image git) et lightgreen.css
+
+commit 595648143a05d24d626d76d7f118051cb6bf65e6
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 13:29:35 2023 +0200
+
+    Ajouter une image
+
+commit bc286609668cb2604f54027479ae9036f55b31ff
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 13:28:16 2023 +0200
+
+    Supprimer une image
+
+commit 26c3116d5ec4aad80bc44f45b0561fb1b1205995
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 13:25:06 2023 +0200
+
+    Ajouter du style
+
+commit 80d96694c8d0429771ed1c2370afcb50481beb6d
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 12:18:49 2023 +0200
+
+    Supprimer une image
+
+commit f335ae730372154325946071ec78045a0836725c
+Author: DIHABI MAROUA <dihabi.maroua1@gmail.com>
+Date:   Mon Sep 11 12:16:07 2023 +0200
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git pull origin
+Updating dfbeaed..1b6b6f5
+Fast-forward
+ README.md | 25 ++++++++++++++++++++++---
+ 1 file changed, 22 insertions(+), 3 deletions(-)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git statut
+git: 'statut' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git add index.html
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push --set-upstream origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git reset index.html
+Unstaged changes after reset:
+M       index.html
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git commit -m "changer la taille de index.html"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git commit -a "changer la taille de index.html"
+fatal: paths 'changer la taille de index.html ...' with -a does not make sense
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git commit -a -m "changer la taille de index.html"
+[master d980226] changer la taille de index.html
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push --set-upstream origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 317 bytes | 317.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/DihabiMaroua/hello-world.git
+   1b6b6f5..d980226  master -> master
+branch 'master' set up to track 'origin/master'.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git pull
+From https://github.com/DihabiMaroua/hello-world
+ * [new branch]      hotfix_94375e0 -> origin/hotfix_94375e0
+Already up to date.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch -a
+  develop
+* master
+  remotes/origin/hotfix_94375e0
+  remotes/origin/master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git merge hotfix_94375e0
+merge: hotfix_94375e0 - not something we can merge
+
+Did you mean this?
+        origin/hotfix_94375e0
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git merge origin/hotfix_94375e0
+Already up to date.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch -d origin/hotfix_94375e0
+error: branch 'origin/hotfix_94375e0' not found.
+Did you forget --remote?
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch -d --remote origin/hotfix_94375e0
+Deleted remote-tracking branch origin/hotfix_94375e0 (was d980226).
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch
+  develop
+* master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push -u origin develop
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/DihabiMaroua/hello-world/pull/new/develop
+remote:
+To https://github.com/DihabiMaroua/hello-world.git
+ * [new branch]      develop -> develop
+branch 'develop' set up to track 'origin/develop'.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch
+  develop
+* master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch -a
+  develop
+* master
+  remotes/origin/develop
+  remotes/origin/master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ status
+bash: status: command not found
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git sattus
+git: 'sattus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push --set-upstream origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ ^[[200~hotfix_94375e0
+bash: $'\E[200~hotfix_94375e0': command not found
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ gir remote add origin "https://github.com/DihabiMaroua/hello-world.git"
+bash: gir: command not found
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git remote add origin "https://github.com/DihabiMaroua/hello-world.git"
+error: remote origin already exists.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push --set-upstream origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push origin -d --remote origin/hotfix_94375e0
+error: unknown option `remote'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all branches
+    --branches            alias of --all
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --branches or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --force-if-includes   require remote updates to be integrated locally
+    --recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack> receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push origin --delete hotfix_94375e0
+To https://github.com/DihabiMaroua/hello-world.git
+ - [deleted]         hotfix_94375e0
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ status
+bash: status: command not found
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git add index.html
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git commit -m "feat: Modifier le index.html"
+[master b5ae3bd] feat: Modifier le index.html
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push --set-upstream origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 419 bytes | 209.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/DihabiMaroua/hello-world.git
+   d980226..b5ae3bd  master -> master
+branch 'master' set up to track 'origin/master'.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push --set-upstream origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git commit -a -m "feat: Modifier le index.html"
+[master 4ca63cd] feat: Modifier le index.html
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push --set-upstream origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 315 bytes | 315.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/DihabiMaroua/hello-world.git
+   b5ae3bd..4ca63cd  master -> master
+branch 'master' set up to track 'origin/master'.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git commit -a -m "feat: Modifier le index.html"
+[master 831e5f5] feat: Modifier le index.html
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git push --set-upstream origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 315 bytes | 315.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/DihabiMaroua/hello-world.git
+   4ca63cd..831e5f5  master -> master
+branch 'master' set up to track 'origin/master'.
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git pull
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 621 bytes | 310.00 KiB/s, done.
+From https://github.com/DihabiMaroua/hello-world
+   2bd73bc..40e9965  develop    -> origin/develop
+Already up to date.
+g
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$ git branch -a
+  develop
+* master
+  remotes/origin/develop
+  remotes/origin/master
+
+MAROUA@LAPTOP-PGNULK0B MINGW64 ~/B3-Git/gitproject (master)
+$
